@@ -1,0 +1,380 @@
+/* 
+
+
+
+
+/********************* Header *********************/
+
+header
+{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color:rgb(239,222,205, 0.5);
+    padding: 1% 5%;
+    background: darkred;
+}
+.container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    display: contents;
+}
+body {
+    overflow-x: hidden;
+    margin: 0;
+
+    background-color:rgb(239,222,205);
+}
+/********************* Logo *********************/
+.logo
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 55px;
+    height: 55px;
+    margin-left: -35px;
+    border-radius: 15px;
+}
+.logo img
+{   
+}
+/********************* Menu | Navigation *********************/
+nav ul
+{
+    list-style-type: none;
+    display: flex;  
+}
+nav li
+{ 
+    margin-right: 15px;
+    padding: 0 10px;
+    font-size: 0.9em;    
+}
+
+nav a
+{
+    font-size: 1.3em;
+    color: rgba(24, 24, 24, 0.8);
+    padding-bottom: 3px;
+    text-decoration: none;
+    color: white;
+    font-family: roboto;
+    text-transform: uppercase;   
+}
+nav ul li a:hover{
+    background: darkturquoise;
+}
+
+nav a:hover
+{
+    color: rgb(230, 25, 59);
+    text-transform: uppercase;
+    background: darkturquoise;
+}
+
+/********************* Bannière *********************/
+
+#banniere_image
+{
+    height: 500px;
+    background: url('images/cv.png') no-repeat;
+    position: relative;
+    box-shadow: 0px 4px 4px #4a98c5;
+    background-size: cover;
+}
+
+#banniere_description {
+    position: absolute;
+    bottom: 0;
+    width: 96%;
+    height: 70px;
+    padding-top: 12px;
+    padding-left: 48px;
+    background-color: rgba(24, 24, 24, 0.8);
+    color: rgb(0, 0, 0);
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+section
+{
+    display: flex;
+    margin-top: 100px;
+}
+
+article, aside
+{
+    text-align: justify;
+    text-indent: 30px;
+}
+
+article
+{
+    margin-right: 20px;
+    flex: 3;
+    padding-left: 20px;
+}
+
+article h1{
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+article p
+{
+  font-size: 1em;
+  line-height: 1.6em;
+}
+
+aside
+{
+    flex: 3.2;
+    position: relative;
+    background-color: rgb(239,222,205,);
+    
+    border-radius: 5px;
+    padding: 10px;
+    color: yallew(0, 0, 0);
+    font-size: 0.9em;
+}
+
+aside h2{
+  text-transform: uppercase;
+}
+
+aside img
+{
+    margin-right: 5px;
+    border: 1px solid #4a98c5;
+    width: 100%;
+}
+h3{
+    color: rgb(20, 20, 20);
+    text-transform: uppercase;
+}
+
+#newsletter
+{
+    width: 31%;
+}
+
+#newsletter form input{
+    border: none;
+    background-color: #fff;
+    width: 70%;
+    padding: 7px 10px;
+}
+
+#newsletter form button {
+    border: none;
+    background-color: #4a98c5;
+    color: #fff;
+    font-size: 14px;
+    padding: 8px 15px;
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+
+.social_container {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#newsletter a
+{
+    text-decoration: none;
+    color: rgb(25, 172, 230);
+}
+
+.copyright {
+    background-color: rgb(25, 172, 230);
+    padding: 20px 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.copyright p {
+    color: goldenrod;
+    margin: auto;
+    text-align: center;
+}
+.parag{
+    font-size: large;
+    color: rgb(70, 34, 34);
+    font-family: roboto;
+}
+.S
+{
+    text-align: center;
+    color: goldenrod;
+    position: absolute;
+    left: 570px;
+}
+.fluid
+{
+    display: flex;
+    position: relative;
+    justify-content:space-around;
+    list-style: none;
+    margin-right:10px;
+}
+img
+{
+    height: 200px;
+}
+#test
+{
+    font-size: 10px;
+}
+#test:hover{
+    font-size: 12px;
+}
+#exc
+{
+    height: 200px;
+    width: 250px;
+}
+
+h2{
+    color: goldenrod;
+}
+.e{
+   text-align: center;
+   left: 570px;
+   position: relative;
+   display: flex;
+   font-size: 26px;
+   font-family: 'Courier New', Courier, monospace;
+   font-style: italic;
+   color: goldenrod;
+   padding-top: 10px;
+   padding-bottom: 40px;
+}
+.pric{
+    text-align: center;
+    left: 570px;
+    position: relative;
+    display: flex;
+    font-size: 26px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    color: goldenrod;
+    padding-top: 50px;
+    position: relative;
+    top:-1cm;
+    margin: 30px;
+} 
+#center{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.y:hover{
+    border:2px solid green;
+}
+.e{
+    text-align: center;
+    font-size: 43px;
+    margin: 30px;
+    font-weight: 400;
+    text-decoration: underline red;
+    animation: change-color 3s infinite  linear;
+    font-family: serif;
+}
+@keyframes change-color{
+    0%{
+        color: black;}
+    25%{
+        color: green;}
+    50%{
+        color: rgb(30, 8, 153);}
+    75%{
+        color: #12345678;
+    }
+    100%{
+    color: red;
+    }
+}
+
+footer
+{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 20px;
+        text-align: center;
+    
+        /* padding-left: 100px; */
+        background: indianred;
+    
+    }
+.add adress{ 
+        width: 20px;
+        height: 20px;
+        padding: 0;
+        
+    }
+    .add{
+        margin-top: 0;
+    }
+.social img{
+        width: 25px;
+        height: 25px;
+        padding: 10px;
+    }
+.botton{
+        margin-top: -19px;
+        margin-left: 184px;
+    }
+.question h5{
+        margin-top: 10px;
+    }
+.img h3 {
+        text-align: left;
+    
+    }
+.add h4{
+        text-align: center;
+    }
+    h4{
+        font-size: 25px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        
+    }
+    
+
+    #address {
+        height: 32px;
+        width: 32px;
+        float: left;
+    }
+    
+    #phone {
+        height: 32px;
+        width: 32px;
+        float: left;
+        background-color: transparent;
+
+    }
+     
+    #email {
+        height: 32px;
+        width: 32px;
+        float: left;
+        background-color: transparent;
+    }
+    .adr{
+        transform: translateX(-130px);
+    }
+    /* .styl{
+        font-family: 'Courier New', Courier, monospace;
+    } */
+    .copy{
+        color:goldenrod;   
+    }
+
+    
