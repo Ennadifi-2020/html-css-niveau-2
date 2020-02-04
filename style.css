@@ -27,7 +27,7 @@ body {
     overflow-x: hidden;
     margin: 0;
 
-    background-color:rgb(239,222,205);
+    background-color:rgba(60, 99, 130,1.0);
 }
 /********************* Logo *********************/
 .logo
@@ -198,15 +198,9 @@ h3{
     padding: 20px 0;
     font-family: "Roboto", sans-serif;
 }
-
-.copyright p {
-    color: goldenrod;
-    margin: auto;
-    text-align: center;
-}
 .parag{
-    font-size: large;
-    color: rgb(70, 34, 34);
+    font-size: small;
+    color:whitesmoke;
     font-family: roboto;
 }
 .S
@@ -309,7 +303,7 @@ footer
         text-align: center;
     
         /* padding-left: 100px; */
-        background: indianred;
+        background: darkred;
     
     }
 .add adress{ 
@@ -374,7 +368,17 @@ footer
         font-family: 'Courier New', Courier, monospace;
     } */
     .copy{
-        color:goldenrod;   
+        color:rgba(60, 99, 130,1.0);   
+    }
+    h3{
+        color: white;
+    }
+    .fluid li:hover{
+        border: 1px solid black;
+        background-color: darkred;
+    }
+    .k{
+        text-align: center;
     }
 
     
